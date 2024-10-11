@@ -1,3 +1,92 @@
+*{
+  box-sizing: border-box;
+}
+
+/*Body*/
+body {
+  width: 100%;
+  max-height: 100vh;
+  padding: 0 20px;
+}
+
+/*Header*/
+header{
+  width: 100%;
+  background-color: #121d51;
+}
+
+.logo{
+  width: 100%;
+  text-align: center;
+}
+
+/*Content*/
+.content {
+  width: 100%;
+  height: auto;
+}
+
+.content img {
+  width: 100%;
+}
+
+/*Sidebar*/
+.sidebar{
+  background-color: #ffff00;
+}
+
+/*Content*/
+.content {
+  background-color: #00ffff;
+}
+
+/*About Us*/
+#about ~ p {
+  background-color: black;
+  color: white;
+}
+
+/*Services*/
+#services ~ p {
+  background-color: #008000;
+}
+
+/*Services > ul*/
+#services ~ ul > li {
+  list-style-type: circle;
+}
+
+#services ~ ul > li:nth-of-type(even) {
+  color: red;
+}
+
+/*Contact*/
+#contact ~ ul > li{
+  list-style-type:disc;
+}
+
+#contact ~ ul li::marker{
+  color: black;
+}
+
+#contact ~ ul > li >a {
+  color: red;
+}
+
+/*Footer*/
+footer div:first-child {
+  background-color: #ffc0cb;
+}
+
+footer div:nth-child(2) {
+  background-color: #a52a2a;
+}
+
+footer div:last-child {
+  background-color: #808080;
+}
+
+
 main,
 footer {
   display: flex;
